@@ -1,0 +1,19 @@
+{
+    "name":"kasiss/demo-helloworld",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "kasiss-liu",
+            "email": "kasiss@163.com"
+        }
+    ],
+    "description": "composer demo to print hello world",
+    "type":"library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Kasiss\\":"src/"},
+        "files": [
+            "src/common/functions.php"
+        ]
+    }
+}
